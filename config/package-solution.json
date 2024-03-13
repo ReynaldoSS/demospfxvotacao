@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demospfxvotacao-client-side-solution",
+    "id": "48aa2d06-8db7-415f-ab7d-e582a5a52421",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "demospfxvotacao description"
+      },
+      "longDescription": {
+        "default": "demospfxvotacao description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "demospfxvotacao Feature",
+        "description": "The feature that activates elements of the demospfxvotacao solution.",
+        "id": "14177495-12a7-4313-bc75-3faf404b095d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demospfxvotacao.sppkg"
+  }
+}
