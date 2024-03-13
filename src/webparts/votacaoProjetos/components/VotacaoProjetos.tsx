@@ -3,15 +3,15 @@ import styles from './VotacaoProjetos.module.scss';
 import type { IVotacaoProjetosProps } from './IVotacaoProjetosProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 
-export default class VotacaoProjetos extends React.Component<IVotacaoProjetosProps, {}> {
-  public render(): React.ReactElement<IVotacaoProjetosProps> {
+const VotacaoProjetos : React.FC<IVotacaoProjetosProps> = (props)=> {
+  
     const {
       description,
       isDarkTheme,
       environmentMessage,
       hasTeamsContext,
       userDisplayName
-    } = this.props;
+    } = props;
 
     return (
       <section className={`${styles.votacaoProjetos} ${hasTeamsContext ? styles.teams : ''}`}>
@@ -40,4 +40,4 @@ export default class VotacaoProjetos extends React.Component<IVotacaoProjetosPro
       </section>
     );
   }
-}
+ export default VotacaoProjetos;
