@@ -3,6 +3,7 @@ import styles from "./VotacaoProjetos.module.scss";
 import type { IVotacaoProjetosProps } from "./IVotacaoProjetosProps";
 import { escape } from "@microsoft/sp-lodash-subset";
 import { SPHttpClient, SPHttpClientResponse } from "@microsoft/sp-http";
+import axios from "axios";
 
 const VotacaoProjetos: React.FC<IVotacaoProjetosProps> = (props) => {
   const {
