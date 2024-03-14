@@ -12,13 +12,17 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
     "@fluentui/react": "^8.106.4",
+    "@fluentui/react-components": "^9.46.8",
     "@microsoft/sp-component-base": "1.18.2",
     "@microsoft/sp-core-library": "1.18.2",
     "@microsoft/sp-lodash-subset": "1.18.2",
     "@microsoft/sp-office-ui-fabric-core": "1.18.2",
     "@microsoft/sp-property-pane": "1.18.2",
     "@microsoft/sp-webpart-base": "1.18.2",
+    "@mui/material": "^5.15.13",
     "axios": "^1.6.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
